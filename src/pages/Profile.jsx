@@ -32,12 +32,12 @@ const Profile = ({ pokemonData }) => {
   };
 
   const pageStyles = {
-    backgroundColor: localTheme === themes.light ? "#0000ff" : "#4f4b4b", // Cor de fundo azul para tema light e cinza escuro para tema dark
-    minHeight: "100vh", // Define a altura mínima para cobrir a tela inteira
+    backgroundColor: localTheme === themes.light ? "#0000ff" : "#4f4b4b", 
+    minHeight: "100vh", 
   };
 
   return (
-    <div style={pageStyles}> {/* Aplica o estilo de fundo à div envolvente */}
+    <div style={pageStyles}> 
       <NavBar hideSearch />
       <div style={{ display: "flex", justifyContent: "center", alignItems: "center", minHeight: "calc(100vh - 150px)" }}>
         <Container maxWidth="md" style={profileStyles}>

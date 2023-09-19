@@ -8,7 +8,7 @@ const Button = ({ props }) => {
     <div className="toggle">
       <img
         onClick={toggleTheme}
-        src="./public/assets/dark-theme-svgrepo-com.svg"
+        src="/assets/dark-theme.png"
         alt="button"
         {...props}
       />

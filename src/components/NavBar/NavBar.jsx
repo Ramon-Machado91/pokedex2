@@ -5,7 +5,7 @@ import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import { useNavigate } from "react-router-dom";
 import "../../index.css";
-import ThemeTogglerButton from "../Toggler-Button/Button"; // Importe o seu botão aqui
+import ThemeTogglerButton from "../Toggler-Button/Button"; 
 
 export default function NavBar() {
   const navigate = useNavigate();
@@ -20,7 +20,7 @@ export default function NavBar() {
           <Box
             display="flex"
             justifyContent="space-between"
-            alignItems="center" // Isso centraliza verticalmente
+            alignItems="center" 
             width="100%"
           >
             <Box
