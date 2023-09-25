@@ -2,7 +2,7 @@
 
 Este é um projeto de uma aplicação React que consome a [API do Pokemon](https://pokeapi.co/). Desafio de teste técnico proposto no curso DevQuest.
 
-Link para para aplicação 
+Link para a aplicação 
 
 https://pokedex2-hh4b-ramon-machado91.vercel.app/
 ___
